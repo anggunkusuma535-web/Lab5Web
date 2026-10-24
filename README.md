@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LAPORAN PRAKTIKUM 5
 # JavaScript Dasar dan Manipulasi HTML
 
@@ -348,3 +349,6 @@ Status kelulusan ditentukan berdasarkan nilai akhir minimal 60.
 
 Berdasarkan Praktikum 5, JavaScript dapat digunakan untuk membuat halaman web yang lebih interaktif melalui pengolahan input pengguna, operasi aritmatika, percabangan, fungsi, perulangan, dan manipulasi DOM. Setiap latihan memberikan pemahaman mengenai cara JavaScript berinteraksi dengan HTML, mulai dari menampilkan pesan sederhana hingga menghitung harga menu dan nilai akhir mahasiswa. Eksperimen mandiri juga membantu memperdalam pemahaman mengenai validasi form, pengolahan data, dan pengaturan tampilan elemen HTML. Dengan melakukan pengujian pada berbagai kondisi input, mahasiswa dapat melatih kemampuan menganalisis kesalahan dan memastikan program berjalan sesuai tujuan.
 
+=======
+# Lab5Web
+>>>>>>> 6698109957f74b2c6763788363ef1ed8f10c63de
