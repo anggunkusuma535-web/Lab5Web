@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum JavaScript</title>
+</head>
+<body>
+
+    <h1>Pengenalan JavaScript</h1>
+    <p id="pesan">Konten awal.</p>
+
+<h1>Pengenalan JavaScript</h1>
+<p id="pesan">Konten awal.</p>
+
+<h2>Latihan 2 - Alert dan Prompt</h2>
+<button type="button" onclick="sapaPengguna()">
+    Masukkan Nama
+</button>
+
+<h2>Latihan 4 - Percabangan dan Validasi Nilai</h2>
+<button type="button" onclick="cekNilai()">Periksa Nilai</button>
+
+<h2>Latihan 5 - Switch Case</h2>
+<button type="button" onclick="pilihBilangan()">Pilih Bilangan</button>
+
+
+<h2>Latihan 6 - Bilangan Ganjil atau Genap</h2>
+
+<label for="bilangan">Masukkan Bilangan:</label>
+<input type="number" id="bilangan">
+
+<button type="button" onclick="cekBilangan()">
+    Cek Bilangan
+</button>
+
+<p id="hasilBilangan"></p>
+
+
+<h2>Latihan 7 - Mengubah Warna Latar Belakang</h2>
+
+<button type="button" onclick="ubahWarnaLatar('lightgreen')">
+    Hijau
+</button>
+
+<button type="button" onclick="ubahWarnaLatar('white')">
+    Putih
+</button>
+
+<button type="button" onclick="ubahWarnaLatar('lightyellow')">
+    Kuning
+</button>
+
+
+
+<h2>Latihan 8 - Menghitung Total Harga Menu</h2>
+
+<label>
+    <input type="checkbox" class="menu" value="5000">
+    Ayam Goreng - Rp5.000
+</label>
+<br>
+
+<label>
+    <input type="checkbox" class="menu" value="500">
+    Tempe - Rp500
+</label>
+<br>
+
+<label>
+    <input type="checkbox" class="menu" value="2500">
+    Telur Dadar - Rp2.500
+</label>
+<br>
+
+<h3>Total Harga: Rp<span id="total">0</span></h3>
+
+
+<h2>Mini Project - Kalkulator Nilai Akhir Mahasiswa</h2>
+
+<label for="nilaiTugas">Nilai Tugas (0-100):</label>
+<input type="number" id="nilaiTugas" min="0" max="100">
+<br><br>
+
+<label for="nilaiUTS">Nilai UTS (0-100):</label>
+<input type="number" id="nilaiUTS" min="0" max="100">
+<br><br>
+
+<label for="nilaiUAS">Nilai UAS (0-100):</label>
+<input type="number" id="nilaiUAS" min="0" max="100">
+<br><br>
+
+<button type="button" onclick="hitungNilaiAkhir()">
+    Hitung Nilai Akhir
+</button>
+
+<p id="hasilNilaiAkhir"></p>
+ 
+
+<h2>Eksperimen Mandiri 1 - Operasi Dua Bilangan</h2>
+<button type="button" onclick="eksperimenOperasiDasar()">
+    Hitung Dua Bilangan
+</button>
+
+
+<h2>Eksperimen Mandiri 7 - Tabel Perkalian 7</h2>
+<button type="button" onclick="tampilkanPerkalian7()">
+    Tampilkan Tabel Perkalian
+</button>
+<div id="hasilPerkalian7"></div>
+
+
+<h2>Eksperimen Mandiri 8 - Cek Bilangan Genap</h2>
+<input type="number" id="angkaGenap" placeholder="Masukkan bilangan">
+<button type="button" onclick="ujiCekGenap()">Periksa</button>
+<p id="hasilCekGenap"></p>
+
+
+<h2>Eksperimen Mandiri 9 - Validasi Form</h2>
+
+<form id="formValidasi" onsubmit="return validasiForm()">
+    <label for="namaValidasi">Nama:</label>
+    <input type="text" id="namaValidasi" placeholder="Masukkan nama">
+    <button type="submit">Kirim</button>
+</form>
+
+<p id="hasilValidasi"></p>
+
+
+<h2>Eksperimen Mandiri 10 - Menu Tambahan</h2>
+
+<label>
+    <input type="checkbox" class="menuEksperimen" value="4000">
+    Nasi Goreng - Rp4.000
+</label>
+<br>
+
+<label>
+    <input type="checkbox" class="menuEksperimen" value="3000">
+    Mie Goreng - Rp3.000
+</label>
+<br>
+
+<p>Total: Rp<span id="totalEksperimen">0</span></p>
+
+
+<h2>Eksperimen Mandiri 11 - Tampilkan atau Sembunyikan</h2>
+
+<p id="teksEksperimen">
+    Ini adalah teks yang dapat disembunyikan atau ditampilkan.
+</p>
+
+<button type="button" onclick="sembunyikanTeks()">
+    Sembunyikan
+</button>
+
+<button type="button" onclick="tampilkanTeks()">
+    Tampilkan
+</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
